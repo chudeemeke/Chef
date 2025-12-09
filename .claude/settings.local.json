@@ -8,7 +8,15 @@
       "Bash(git fetch:*)",
       "Bash(git ls-tree:*)",
       "Bash(git checkout:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit --author=\"Chude <chude@emeke.org>\" -m \"$(cat <<''EOF''\nfeat: add complete Smart Fridge Chef codebase\n\n- React 18/TypeScript PWA with hexagonal architecture\n- Gemini AI integration for recipe generation and image analysis\n- Dexie (IndexedDB) for client-side persistence\n- Components: recipe list, cooking mode, shopping list, favorites\n- Add CLAUDE.md with architecture documentation\nEOF\n)\")",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit --author=\"Chude <chude@emeke.org>\" -m \"$(cat <<''EOF''\nchore: remove images folder from version control\n\n- Add images/ to .gitignore\n- Keep files locally but exclude from repo\n- Reduces repo size (99MB video file removed)\nEOF\n)\")",
+      "Bash(git commit:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)"
     ],
     "deny": [],
     "ask": []

@@ -218,7 +218,7 @@ const App: React.FC = () => {
       await storage.shoppingList.toggleCheck(Number(itemId));
   };
   
-  const handleReorderShoppingList = (items: ShoppingListItem[]) => { /* Persist if needed */ };
+  const handleReorderShoppingList = (_items: ShoppingListItem[]) => { /* Persist if needed */ };
 
   const handleClearShoppingList = async () => {
       if (userId && window.confirm("Delete all shopping items?")) {

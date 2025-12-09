@@ -421,7 +421,7 @@ const ShoppingListView: React.FC<ShoppingListViewProps> = ({
                              <h3 className={`text-xs font-bold uppercase tracking-wider transition-colors ${dragOverCategory === category ? 'text-blue-600' : 'text-gray-500 dark:text-gray-400'}`}>{category}</h3>
                         </div>
                         <ul className="min-h-[10px]">
-                            {groupedItems[category].map((item, index) => (
+                            {groupedItems[category].map((item, _index) => (
                                 <li 
                                     key={item.id}
                                     draggable

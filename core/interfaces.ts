@@ -1,5 +1,5 @@
 
-import type { Recipe, User, ShoppingListItem, ShareData, Ingredient } from '../types';
+import type { Recipe, User, ShoppingListItem, ShareData } from '../types';
 
 export interface IAIEngine {
   analyzeImage(base64Image: string): Promise<Recipe[]>;

@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import type { Recipe } from '../types';
 import RecipeCard from './RecipeCard';
-import { PlusIcon, XIcon, RefreshIcon, UploadIcon } from './icons';
+import { PlusIcon, XIcon, RefreshIcon } from './icons';
 
 interface RecipeListProps {
   recipes: Recipe[];

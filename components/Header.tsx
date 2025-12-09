@@ -14,7 +14,7 @@ interface HeaderProps {
   onLogout: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ user, activeTab, setActiveTab, onReset, toggleDarkMode, onLogout }) => {
+const Header: React.FC<HeaderProps> = ({ user, activeTab, setActiveTab, onReset, toggleDarkMode, onLogout: _onLogout }) => {
   const getTabClass = (tabName: ActiveTab) => {
     return activeTab === tabName
       ? 'border-blue-600 text-blue-700 dark:text-blue-400 dark:border-blue-400'
